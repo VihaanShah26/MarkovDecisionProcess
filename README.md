@@ -26,19 +26,31 @@ The town has 1 pizza place, 1 customer and any number of rivals.
 
 ## Program 
 The program will take as input a bidimensional structure called map of size 6x6 which contains the locations of the pizza place, customer and rivals. They are represented as follows: 
-0 - Empty Block
+
+0 - Empty Block 
+
 1 - The Pizza Shop 
+
 2 - Customer 
+
 3 - Rival Pizza Places 
 
 The program also takes as input an empty bidimensional structure of size 6x6 called policies which must be populated by the drone's best action in each block. The actions the drone can take are represented as follows: 
+
 1 - South with special propulsion OFF 
+
 2 - West with special propulsion OFF 
+
 3 - North with special propulsion OFF 
+
 4 - East with special propulsion OFF 
+
 5 - South with special propulsion ON 
+
 6 - West with special propulsion ON 
+
 7 - North with special propulsion ON 
+
 8 - East with special propulsion ON
 
 Other inputs - "delivery_fee" which is the reward for successfully delivering the pizza, "battery_drop_cost" which is the cost of the drone moving one block without special propulsion, "dronerepair_cost" which is the cost of replacing a drone that is shot down by a rival and "discount" which is the discounting factor of rewards as the drone takes longer to deliver the pizza. 
